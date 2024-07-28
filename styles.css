@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    font-family: roboto, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(234, 224, 243);
+    height:100vh;
+    background-image: url("bloc.jfif");
+
+}
+header{
+    background-color: rgb(11, 47, 247);
+    text-align:center;
+    align-items: center;
+    padding-top: 10px;
+    margin-top: -10px;
+    width:100%;
+    font-size: 30px;
+    color:aliceblue;
+}
+ul{
+    display:block;
+    background-color: rgb(18, 214, 116);
+    padding-top: 20px;
+    margin-top: -40px;
+    border-radius: 50px;
+} 
+ ul li{
+    display:inline-block;
+    text-align: center;
+    list-style-type: none;
+    font-size: 30px;
+    color:aliceblue;
+    padding-left: 20px;
+    margin-left: 70px;
+    box-sizing: border-box;   
+}
+li:hover{
+    background-color: rgb(23, 23, 26);
+}
+.section{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+p{
+    font-size: 40px;
+}
+footer{
+    background-color: rgb(221, 17, 17);
+    margin-top: 100px;
+    text-align: center;
+    height: 7%;
+    font-size: 40px;
+}
